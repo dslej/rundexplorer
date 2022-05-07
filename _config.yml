@@ -9,6 +9,6 @@ baseurl: "/rundexplorer"
 github_username:  dslej
 #theme: minima
 theme: jekyll-theme-cayman
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-feed
 
