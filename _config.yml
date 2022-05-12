@@ -1,4 +1,4 @@
-#title: RundExplorer
+title: RundExplorer
 #domain: dslej.github.io
 #url: https://dslej.github.io
 #baseurl: /rundexplorer/
@@ -7,9 +7,9 @@
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 #twitter_username: jekyllrb
-#github_username:  dslej
-#theme: minima
-theme: jekyll-theme-cayman
-#plugins:
-#  - jekyll-feed
+github_username:  dslej
+theme: minima
+#theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
 
