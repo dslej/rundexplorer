@@ -1,15 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-# hello world
-
-`hello world`
-
-hello
+# Blog site about [Rundeck](https://github.com/rundeck/rundeck) HowTos - and related DevOps things
 
 
 
