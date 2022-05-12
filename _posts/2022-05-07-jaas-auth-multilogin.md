@@ -137,5 +137,3 @@ After these steps you should be now able to authenticate to these multiple auth 
 # Docs
 [https://docs.rundeck.com/docs/](https://docs.rundeck.com/docs/)
 
-![](/contents/rundeck.png)
-
