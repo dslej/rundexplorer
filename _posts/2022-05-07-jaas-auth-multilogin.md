@@ -8,7 +8,7 @@ categories: tutorial howto auth jaas
 # Overview
 Rundeck has the ability to integrate multiple authentication methods thanks to the Java Authentication and Authorization Service, or [JAAS](https://en.wikipedia.org/wiki/Java_Authentication_and_Authorization_Service) .
 These authorization modules include ActiveDirectory, LDAP, and Realm which is Rundeck's default authentication.
-There are other types of authentication like Single Sign On covered in another tutorial.
+There are other types of authentication like [Single-Sign-On](https://en.wikipedia.org/wiki/Single_sign-on) covered in another tutorial.
 
 ---
 
@@ -26,7 +26,7 @@ There are other types of authentication like Single Sign On covered in another t
 - An already deployed and configured LDAP server. The `osixia/openldap` docker image was used in this tutorial.
 - CentOS `8` (or `7` will work as well) as the Rundeck server.
 - Rundeck RPM install package (`3.4.10` was used).
-- Java openjdk version `1.8.0_302` or latest `8` branch. Also Java `11` will work as well.
+- Java JRE or JDK version `1.8.0_302` or latest `8` branch. Also Java `11` will work as well.
 
 ---
 
@@ -40,8 +40,6 @@ debug="true"
 file="/etc/rundeck/realm.properties";
 };
 ```
-
-![](/contents/jaas-auth-multilogin-1.png)
 
 The last line points to `/etc/rundeck/realm.properties` which contains the <user>,<password>,<role> definitions as below:
 ```
@@ -138,4 +136,6 @@ After these steps you should be now able to authenticate to these multiple auth 
 
 # Docs
 [https://docs.rundeck.com/docs/](https://docs.rundeck.com/docs/)
+
+![](/contents/rundeck.png)
 
