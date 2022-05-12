@@ -1,4 +1,7 @@
 title: RundExplorer
+home: https://github.com/dslej/rundexplorer
+description: some description
+bio: some bio
 #domain: dslej.github.io
 #url: https://dslej.github.io
 #baseurl: /rundexplorer/
@@ -8,6 +11,8 @@ title: RundExplorer
 #  Google search results) and in your feed.xml site description.
 #twitter_username: jekyllrb
 github_username:  dslej
+reading_time: true
+
 theme: minima
 #theme: jekyll-theme-cayman
 plugins:
